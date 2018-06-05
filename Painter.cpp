@@ -120,7 +120,7 @@ Vehicle *Painter::getNewVehicle(string type) {
         return new Truck();
     } else if (type == "9") {
         return new Litter();
-    } else if (type == "10") {
+    } else {
         return new Rickshaw();
     }
 }
