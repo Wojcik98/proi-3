@@ -35,3 +35,9 @@ vector<Vehicle *> Database::getVehicles() {
 Vehicle* Database::getVehicle(string vin) {
     return vehicles[vin];
 }
+
+Database::~Database() {
+    for(auto tmp : vehicles){
+        delete tmp.second;
+    }
+}

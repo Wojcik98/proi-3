@@ -34,5 +34,10 @@ int main() {
             exit = true;
         }
     }
+
+    for(auto tmp : owners){
+        delete tmp.second;
+    }
+
     return 0;
 }

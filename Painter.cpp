@@ -46,7 +46,6 @@ void Painter::showMenu() {
 
 void Painter::showVehicles() {
     vector<Vehicle *> tmp = model->getVehicles();
-    cerr << "size: " << tmp.size();
     for (auto el : tmp) {
         auto info = el->getInfo();
         cout << info["Właściciel"] << " " << info["VIN"] << " " << info["Typ"] << endl;

@@ -16,6 +16,8 @@ class Database {
 public:
     Database();
 
+    ~Database();
+
     void addVehicle(Vehicle *);
 
     void setOC(string vin);
