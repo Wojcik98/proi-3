@@ -39,6 +39,8 @@ void Painter::showMenu() {
          "2) Pokaż pojazdy" << endl <<
          "3) Zmień właściciela pojazdu" << endl <<
          "4) Dodaj OC" << endl <<
+         "5) Pokaż dane pojazdu" << endl <<
+         "6) Pokaż pojazdy właściciela" << endl <<
          "99) Wyjście" << endl;
 }
 
